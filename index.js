@@ -53,10 +53,8 @@ const runProcess = () => {
     let outputElement = document.getElementById('outputElement')
     outputElement.innerText = ''
     let runningString = getText()
-    console.log(runningString)
     if(isInputPresent(runningString)){
         const tagList =   getTagList(runningString)
-        console.log(tagList)
         const tagsWithIncorrectCars = returnIncorrectTags(tagList)
         if(tagsWithIncorrectCars.length === 1){
             outputElement.innerText = "XML file passed the UTF-8 check"
