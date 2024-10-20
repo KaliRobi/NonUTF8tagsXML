@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<document>
+    <header>
+        <title>Sample Document</title>
+        <date>2024-10-20</date>
+    </header>
+    <body>
+        <section>
+            <paragraph>This is a sample  paragraph with some random text. ÿ  Non-UTF-8 character here </paragraph>
+        </section>
+        <section>
+            <paragraph>Another paragraph with あ more random text for testing purposes.</paragraph>
+        </section>
+        <footer>
+            <note>End of the document.</note>
+        </footer>
+    </body>
+</document>
